@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.ransoft.androidroom.databinding.ActivityMainBinding
-import com.ransoft.androidroom.simplifiedcoading.HomeActivity
+import com.ransoft.androidroom.simplifiedcoading.ui.home.HomeActivity
 
 class MainActivity : AppCompatActivity() {
 

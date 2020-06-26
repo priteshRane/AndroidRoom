@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Android Room</string>
     <string name="simplified_coading">Simplified Coading</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
 </resources>
