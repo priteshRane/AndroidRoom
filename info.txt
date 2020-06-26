@@ -1,0 +1,16 @@
+What is Room?
+=============
+Abstraction layer over SQLite to allow for more robust database access
+
+SQLite vs Room
+==============
+No compile time check of SQL queries | Compile time checks of SQL queries
+Updating database, changing schema was difficult | it is easy in Room with Migration classes
+converting SQL queries to java objects is difficult and requires too much boilerplate code | Maps datbase objects to java objects very easy with little boilerplate code
+Cannot work with LiveData and ViewModel | Room is built to work with LiveData and ViewModel
+
+Components of Room
+==================
+Database: An abstract class annotated with @Database and extending RoomDatabase class
+Entity: Represents the table in our database
+Dao: For every entity a DAO interface is needed that contains function for acessing the database
